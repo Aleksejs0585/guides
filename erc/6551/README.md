@@ -6,7 +6,7 @@ Importantly, EIP-6551 is backwards compatible and doesn't mandate custom logic w
 
 # Use cases for token bound accounts:
 
-- **Gaming** - A character, represented as an NFT, can possess its own inventory (like weapons, gold, etc.) using a smart wallet
+- **Gaming** - A character, represented as an NFT, can possess its own inventory (like weapons, gold, etc.) using a Coinbase smart wallet
 - **Investing** - Utilize NFTs and their smart contract accounts to organize assets and sell entire investment portfolios in a single transaction
 - **Social (DAOs)** - NFTs representing DAO membership can now maintain their own transaction history
 
