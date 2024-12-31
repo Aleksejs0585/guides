@@ -1,6 +1,6 @@
 # Native Bridge Examples
 
-This repository collects a couple examples of how to call the smart contracts to bridge native ETH and ERC20 tokens to Base
+This repository collects a couple of examples of how to call the smart contracts to bridge native ETH and ERC20 tokens to Base
 
 ## Environment Setup
 
@@ -103,7 +103,7 @@ Lastly, you can finalize the transaction with
 npx hardhat finalizeWithdrawal --tx {your transaction hash from above}
 ```
 
-The same flow can be used for ERC20 tokens. Make sure that the token is supported by the bridge by checking the l2 base, base-goerli addresses and l1 ethereum, goerli addresses in the [optimism token list](https://github.com/ethereum-optimism/ethereum-optimism.github.io)
+The same flow can be used for ERC20 tokens. Make sure that the token is supported by the bridge by checking the L2 Base, Base-Goerli addresses and L1 Ethereum, Goerli addresses in the [optimism token list](https://github.com/ethereum-optimism/ethereum-optimism.github.io)
 
 ```
 npx hardhat withdrawToken --amount 0.01 --token 0x4200000000000000000000000000000000000006
